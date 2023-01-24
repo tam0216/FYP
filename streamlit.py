@@ -276,6 +276,6 @@ if uploaded_data is not None:
 
    output_idx = output.softmax(-1).argmax(-1).cpu().tolist()[0]
    st.write(f'Prediction: {output_idx}')
-   #st.write(f'Prediction: {CLASSES[output_idx]}')
+   st.write(f'Prediction: {CLASSES[output_idx]}')
 
 
