@@ -35,6 +35,6 @@ jobs:
         
     - name: install curl    
       run: |
-        conda install libcurl4-openssl-dev libssl-dev
+        conda apt install libcurl4-openssl-dev libssl-dev
       
       
