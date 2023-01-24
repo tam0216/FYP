@@ -1,5 +1,5 @@
 import sys
-#sys.path.append('/home/szejue/deit')
+
 
 import streamlit as st
 import matplotlib.pyplot as plt
